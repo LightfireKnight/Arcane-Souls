@@ -873,6 +873,59 @@
           }
         ]
       }
+    },
+    {
+      "name": "SummonGileadPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_gilead_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/SummonGileadPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SummonGilead",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_gilead",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/item/SummonGileadItem.java",
+          "src/main/resources/assets/arcane_souls/models/item/summon_gilead.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -882,6 +935,7 @@
       "block.arcane_souls.magic_grass": "Magic Grass",
       "block.arcane_souls.emptiness_of_the_soul_realm": "Emptiness Of The Soul Realm",
       "biome.arcane_souls.soul_woods": "Soul Plains",
+      "item.arcane_souls.summon_gilead": "Summoning Horn",
       "block.arcane_souls.soul_air": "Soul Air",
       "block.arcane_souls.adorite": "Adorite",
       "biome.arcane_souls.soul_deadzone": "Soul Plains",
