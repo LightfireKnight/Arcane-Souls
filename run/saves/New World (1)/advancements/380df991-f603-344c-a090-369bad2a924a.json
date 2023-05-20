@@ -1,0 +1,11 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2023-05-19 20:21:52 -0700",
+      "minecraft:forest": "2023-05-19 20:15:55 -0700",
+      "minecraft:jungle": "2023-05-19 20:21:50 -0700"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

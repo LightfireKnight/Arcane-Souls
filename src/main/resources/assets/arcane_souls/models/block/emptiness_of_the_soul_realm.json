@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arcane_souls:blocks/voidblack",
+    "up": "arcane_souls:blocks/voidblack",
+    "north": "arcane_souls:blocks/voidblack",
+    "east": "arcane_souls:blocks/voidblack",
+    "south": "arcane_souls:blocks/voidblack",
+    "west": "arcane_souls:blocks/voidblack",
+    "particle": "arcane_souls:blocks/voidblack"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "arcane_souls:custom/flames",
+  "textures": {
+    "all": "arcane_souls:blocks/whitefire_0",
+    "particle": "arcane_souls:blocks/whitefire_0",
+    "0": "arcane_souls:blocks/whitefire_0",
+    "1": "arcane_souls:blocks/whitefire_1"
+  },
+  "render_type": "cutout"
+}

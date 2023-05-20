@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arcane_souls:blocks/dirt",
+    "up": "arcane_souls:blocks/magicgrassblocktopfull",
+    "north": "arcane_souls:blocks/magicgrassblocksidefull",
+    "east": "arcane_souls:blocks/magicgrassblocksidefull",
+    "south": "arcane_souls:blocks/magicgrassblocksidefull",
+    "west": "arcane_souls:blocks/magicgrassblocksidefull",
+    "particle": "arcane_souls:blocks/dirt"
+  },
+  "render_type": "solid"
+}

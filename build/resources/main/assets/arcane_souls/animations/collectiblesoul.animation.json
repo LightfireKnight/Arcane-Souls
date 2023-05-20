@@ -1,0 +1,124 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.CollectibleSoul.idle": {
+			"loop": true,
+			"animation_length": 3.12,
+			"start_delay": "0",
+			"loop_delay": "0",
+			"bones": {
+				"Core": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.8": {
+							"vector": [1.7, 1.7, 1.7],
+							"easing": "easeInExpo"
+						},
+						"0.92": {
+							"vector": [1.4, 1.4, 1.4],
+							"easing": "easeInOutExpo"
+						},
+						"1.04": {
+							"vector": [1.9, 1.9, 1.9],
+							"easing": "easeInExpo"
+						},
+						"1.68": {
+							"vector": [1, 1, 1],
+							"easing": "easeOutCirc"
+						},
+						"2.32": {
+							"vector": [1.7, 1.7, 1.7],
+							"easing": "easeInExpo"
+						},
+						"2.44": {
+							"vector": [1.4, 1.4, 1.4],
+							"easing": "easeInOutExpo"
+						},
+						"2.56": {
+							"vector": [1.9, 1.9, 1.9],
+							"easing": "easeInExpo"
+						},
+						"3.12": {
+							"vector": [1, 1, 1],
+							"easing": "easeOutCirc"
+						}
+					}
+				},
+				"Outer": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.52": {
+							"vector": [60, 60, 0]
+						},
+						"1.04": {
+							"vector": [120, 120, 0]
+						},
+						"1.56": {
+							"vector": [180, 180, 0]
+						},
+						"2.08": {
+							"vector": [240, 240, 0]
+						},
+						"2.6": {
+							"vector": [300, 300, 0]
+						},
+						"3.12": {
+							"vector": [360, 360, 0]
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"1.56": {
+							"vector": [1.2, 1.2, 1.2]
+						},
+						"3.12": {
+							"vector": [1, 1, 1]
+						}
+					}
+				},
+				"Inner": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.52": {
+							"vector": [-60, -60, 0]
+						},
+						"1.04": {
+							"vector": [-120, -120, 0]
+						},
+						"1.56": {
+							"vector": [-180, -180, 0]
+						},
+						"2.08": {
+							"vector": [-240, -240, 0]
+						},
+						"2.6": {
+							"vector": [-300, -300, 0]
+						},
+						"3.12": {
+							"vector": [-360, -360, 0]
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"1.56": {
+							"vector": [1.3, 1.3, 1.3]
+						},
+						"3.12": {
+							"vector": [1, 1, 1]
+						}
+					}
+				}
+			}
+		}
+	}
+}

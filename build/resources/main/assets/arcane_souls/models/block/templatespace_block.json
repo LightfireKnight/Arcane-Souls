@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arcane_souls:blocks/templatespace",
+    "up": "arcane_souls:blocks/templatespace",
+    "north": "arcane_souls:blocks/templatespace",
+    "east": "arcane_souls:blocks/templatespace",
+    "south": "arcane_souls:blocks/templatespace",
+    "west": "arcane_souls:blocks/templatespace",
+    "particle": "arcane_souls:blocks/templatespace"
+  },
+  "render_type": "solid"
+}

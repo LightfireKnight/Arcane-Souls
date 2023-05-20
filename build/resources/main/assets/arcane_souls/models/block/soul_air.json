@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arcane_souls:blocks/airblocktex",
+    "up": "arcane_souls:blocks/airblocktex",
+    "north": "arcane_souls:blocks/airblocktex",
+    "east": "arcane_souls:blocks/airblocktex",
+    "south": "arcane_souls:blocks/airblocktex",
+    "west": "arcane_souls:blocks/airblocktex",
+    "particle": "arcane_souls:blocks/airblocktex"
+  },
+  "render_type": "cutout"
+}

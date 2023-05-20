@@ -1,0 +1,43 @@
+{
+  "_fv": 39,
+  "_type": "fluid",
+  "definition": {
+    "name": "Soul Lava",
+    "bucketName": "Soul Lava Bucket",
+    "textureStill": "bluelavatemp",
+    "textureFlowing": "bluelavatemp",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 5,
+    "levelDecrease": 2,
+    "slopeFindDistance": 3,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": -0.6,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 300,
+    "type": "LAVA",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 15,
+    "lightOpacity": 0,
+    "emissiveRendering": true,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT"
+  }
+}

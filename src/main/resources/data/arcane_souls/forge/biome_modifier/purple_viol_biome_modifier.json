@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "arcane_souls:soul_plains",
+  "features": "arcane_souls:purple_viol",
+  "step": "vegetal_decoration"
+}

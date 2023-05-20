@@ -1,0 +1,991 @@
+{
+  "mod_elements": [
+    {
+      "name": "SoulAir",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_air",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_souls/blockstates/soul_air.json",
+          "src/main/java/net/iceworks/arcanesouls/block/SoulAirBlock.java",
+          "src/main/resources/assets/arcane_souls/models/block/soul_air.json",
+          "src/main/resources/assets/arcane_souls/models/item/soul_air.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulPlains",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_plains",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/world/biome/SoulPlainsBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "SoulRealm",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_realm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_souls/dimension/soul_realm.json",
+          "src/main/resources/data/arcane_souls/dimension_type/soul_realm.json",
+          "src/main/java/net/iceworks/arcanesouls/world/dimension/SoulRealmDimension.java"
+        ]
+      }
+    },
+    {
+      "name": "SoulDimSwap",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_dim_swap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/SoulDimSwapProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DimSwap",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dim_swap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/command/DimSwapCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicGrass",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_souls/models/item/magic_grass.json",
+          "src/main/resources/assets/arcane_souls/blockstates/magic_grass.json",
+          "src/main/java/net/iceworks/arcanesouls/block/MagicGrassBlock.java",
+          "src/main/resources/assets/arcane_souls/models/block/magic_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "GhostwoodLog",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghostwood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_souls/models/item/ghostwood_log.json",
+          "src/main/resources/assets/arcane_souls/blockstates/ghostwood_log.json",
+          "src/main/java/net/iceworks/arcanesouls/block/GhostwoodLogBlock.java",
+          "src/main/resources/assets/arcane_souls/models/block/ghostwood_log.json"
+        ]
+      }
+    },
+    {
+      "name": "GhostwoodLeaves",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghostwood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_souls/models/item/ghostwood_leaves.json",
+          "src/main/resources/assets/arcane_souls/models/block/ghostwood_leaves.json",
+          "src/main/resources/assets/arcane_souls/blockstates/ghostwood_leaves.json",
+          "src/main/java/net/iceworks/arcanesouls/block/GhostwoodLeavesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PurpleViol",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_viol",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_souls/blockstates/purple_viol.json",
+          "src/main/resources/assets/arcane_souls/models/block/purple_viol.json",
+          "src/main/java/net/iceworks/arcanesouls/block/PurpleViolBlock.java",
+          "src/main/java/net/iceworks/arcanesouls/world/features/plants/PurpleViolFeature.java",
+          "src/main/resources/assets/arcane_souls/models/item/purple_viol.json",
+          "src/main/resources/data/arcane_souls/forge/biome_modifier/purple_viol_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulWoods",
+      "type": "biome",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_woods",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/world/biome/SoulWoodsBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "SoulDeadzone",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_deadzone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/world/biome/SoulDeadzoneBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "DeadDirt",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_souls/models/block/dead_dirt.json",
+          "src/main/java/net/iceworks/arcanesouls/block/DeadDirtBlock.java",
+          "src/main/resources/assets/arcane_souls/blockstates/dead_dirt.json",
+          "src/main/resources/assets/arcane_souls/models/item/dead_dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "SeruliumStone",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serulium_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/block/SeruliumStoneBlock.java",
+          "src/main/resources/assets/arcane_souls/models/block/serulium_stone.json",
+          "src/main/resources/assets/arcane_souls/blockstates/serulium_stone.json",
+          "src/main/resources/assets/arcane_souls/models/item/serulium_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "EmptinessOfTheSoulRealm",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emptiness_of_the_soul_realm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_souls/models/block/emptiness_of_the_soul_realm.json",
+          "src/main/resources/assets/arcane_souls/blockstates/emptiness_of_the_soul_realm.json",
+          "src/main/resources/assets/arcane_souls/models/item/emptiness_of_the_soul_realm.json",
+          "src/main/java/net/iceworks/arcanesouls/block/EmptinessOfTheSoulRealmBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SeruliumStoneCrust",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serulium_stone_crust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_souls/models/item/serulium_stone_crust.json",
+          "src/main/resources/assets/arcane_souls/models/block/serulium_stone_crust.json",
+          "src/main/resources/assets/arcane_souls/blockstates/serulium_stone_crust.json",
+          "src/main/java/net/iceworks/arcanesouls/block/SeruliumStoneCrustBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SoulLava",
+      "type": "fluid",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_lava",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_souls/models/item/soul_lava_bucket.json",
+          "src/main/resources/assets/arcane_souls/models/block/soul_lava.json",
+          "src/main/java/net/iceworks/arcanesouls/fluid/types/SoulLavaFluidType.java",
+          "src/main/resources/assets/arcane_souls/blockstates/soul_lava.json",
+          "src/main/java/net/iceworks/arcanesouls/block/SoulLavaBlock.java",
+          "src/main/java/net/iceworks/arcanesouls/item/SoulLavaItem.java",
+          "src/main/java/net/iceworks/arcanesouls/fluid/SoulLavaFluid.java"
+        ]
+      }
+    },
+    {
+      "name": "TemplatespaceBlock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "templatespace_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/block/TemplatespaceBlockBlock.java",
+          "src/main/resources/assets/arcane_souls/blockstates/templatespace_block.json",
+          "src/main/resources/assets/arcane_souls/models/item/templatespace_block.json",
+          "src/main/resources/assets/arcane_souls/models/block/templatespace_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Adorite",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adorite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_souls/models/item/adorite.json",
+          "src/main/resources/assets/arcane_souls/blockstates/adorite.json",
+          "src/main/resources/assets/arcane_souls/models/block/adorite.json",
+          "src/main/java/net/iceworks/arcanesouls/block/AdoriteBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Lightflame",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightflame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_souls/models/item/lightflame.json",
+          "src/main/resources/assets/arcane_souls/blockstates/lightflame.json",
+          "src/main/java/net/iceworks/arcanesouls/block/LightflameBlock.java",
+          "src/main/resources/assets/arcane_souls/models/block/lightflame.json"
+        ]
+      }
+    },
+    {
+      "name": "RadiantBurnsOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiant_burns_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/RadiantBurnsOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadiantBurns",
+      "type": "potioneffect",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiant_burns",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/potion/RadiantBurnsMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "AdoriteEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adorite_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/AdoriteEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdoriteNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adorite_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/AdoriteNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdoriteOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adorite_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/AdoriteOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightflameEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightflame_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/LightflameEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightflameBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightflame_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/LightflameBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadiantBurnsEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiant_burns_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/RadiantBurnsEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CollectibleSoulBase",
+      "type": "animatedentity",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "collectible_soul_base",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/client/renderer/CollectibleSoulBaseRenderer.java",
+          "src/main/java/net/iceworks/arcanesouls/entity/CollectibleSoulBaseEntity.java",
+          "src/main/resources/assets/arcane_souls/models/item/collectible_soul_base_spawn_egg.json",
+          "src/main/java/net/iceworks/arcanesouls/entity/model/CollectibleSoulBaseModel.java"
+        ]
+      }
+    },
+    {
+      "name": "CollectibleSoulBasePlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "collectible_soul_base_player_collides_with_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/CollectibleSoulBasePlayerCollidesWithThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DropSouls",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_souls",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/DropSoulsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Thorn",
+      "type": "animateditem",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/item/ThornItem.java",
+          "src/main/java/net/iceworks/arcanesouls/item/model/ThornItemModel.java",
+          "src/main/java/net/iceworks/arcanesouls/item/renderer/ThornItemRenderer.java",
+          "src/main/resources/assets/arcane_souls/models/item/thorn.json"
+        ]
+      }
+    },
+    {
+      "name": "ThornRightclicked",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorn_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/ThornRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThornProjectileProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorn_projectile_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/ThornProjectileProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThornProjectile",
+      "type": "rangeditem",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorn_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/item/ThornProjectileItem.java",
+          "src/main/java/net/iceworks/arcanesouls/entity/ThornProjectileEntity.java",
+          "src/main/resources/assets/arcane_souls/models/item/thorn_projectile.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulburn",
+      "type": "potioneffect",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulburn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/potion/SoulburnMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "FlechetteProjectileWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flechette_projectile_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/FlechetteProjectileWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlechetteProjectileProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flechette_projectile_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/FlechetteProjectileProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlechetteProjectile",
+      "type": "rangeditem",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flechette_projectile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_souls/models/item/flechette_projectile.json",
+          "src/main/java/net/iceworks/arcanesouls/item/FlechetteProjectileItem.java",
+          "src/main/java/net/iceworks/arcanesouls/entity/FlechetteProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "FlechetteRightclicked",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flechette_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/FlechetteRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Flechette",
+      "type": "animateditem",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flechette",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/item/FlechetteItem.java",
+          "src/main/resources/assets/arcane_souls/models/item/flechette.json",
+          "src/main/java/net/iceworks/arcanesouls/item/model/FlechetteItemModel.java",
+          "src/main/java/net/iceworks/arcanesouls/item/renderer/FlechetteItemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "SoulburnEffectExpires",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulburn_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/SoulburnEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amplifier",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulburnOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulburn_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/SoulburnOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulburnEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulburn_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/SoulburnEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SummonGileadPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_gilead_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/procedures/SummonGileadPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SummonGilead",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_gilead",
+      "metadata": {
+        "files": [
+          "src/main/java/net/iceworks/arcanesouls/item/SummonGileadItem.java",
+          "src/main/resources/assets/arcane_souls/models/item/summon_gilead.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.arcane_souls.magic_grass": "Magic Grass",
+      "block.arcane_souls.emptiness_of_the_soul_realm": "Emptiness Of The Soul Realm",
+      "biome.arcane_souls.soul_woods": "Soul Plains",
+      "item.arcane_souls.summon_gilead": "Summoning Horn",
+      "block.arcane_souls.soul_air": "Soul Air",
+      "block.arcane_souls.adorite": "Adorite",
+      "biome.arcane_souls.soul_deadzone": "Soul Plains",
+      "block.arcane_souls.lightflame": "Lightflame",
+      "effect.arcane_souls.radiant_burns": "Radiant Burns",
+      "item.arcane_souls.flechette": "Flechette",
+      "block.arcane_souls.templatespace_block": "Templatespace Block",
+      "effect.arcane_souls.soulburn": "Soulburn",
+      "biome.arcane_souls.soul_plains": "Soul Plains",
+      "block.arcane_souls.ghostwood_leaves": "Ghostwood Leaves",
+      "entity.arcane_souls.collectible_soul_base": "Collectible Soul Base",
+      "item.arcane_souls.thorn": "Thorn",
+      "item.arcane_souls.thorn_projectile": "Thorn Projectile",
+      "block.arcane_souls.serulium_stone_crust": "Serulium Stone Crust",
+      "block.arcane_souls.soul_lava": "Soul Lava",
+      "item.arcane_souls.soul_realm": "Soul Realm Portal Igniter",
+      "item.arcane_souls.soul_lava_bucket": "Soul Lava Bucket",
+      "block.arcane_souls.purple_viol": "Purple Viol",
+      "block.arcane_souls.dead_dirt": "Dead Dirt",
+      "item.arcane_souls.flechette_projectile": "Flechette Projectile",
+      "block.arcane_souls.ghostwood_log": "Ghostwood Log",
+      "block.arcane_souls.serulium_stone": "Serulium Stone",
+      "item.arcane_souls.collectible_soul_base_spawn_egg": "Collectible Soul Base Spawn Egg",
+      "fluid.arcane_souls.soul_lava": "Soul Lava"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "arcane_souls",
+    "modName": "Arcane Souls",
+    "version": "1.0.0",
+    "author": "iccelerox, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.iceworks.arcanesouls",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

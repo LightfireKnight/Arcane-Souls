@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ThornGun.fire": {
+			"animation_length": 0.24,
+			"bones": {
+				"Gun": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.12": {
+							"vector": [-25, 0, 0],
+							"easing": "easeInExpo"
+						},
+						"0.24": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutExpo"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.12": {
+							"vector": [0, 0, 0.25]
+						},
+						"0.24": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.ThornGun.idle": {
+			"loop": true
+		},
+		"animation.TotemBase.idle": {
+			"loop": true
+		}
+	}
+}

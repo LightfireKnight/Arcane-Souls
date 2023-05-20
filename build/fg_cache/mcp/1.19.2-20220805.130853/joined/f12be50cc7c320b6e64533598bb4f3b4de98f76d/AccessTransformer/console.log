@@ -1,0 +1,6 @@
+JVM:         E:\MCREATOR_FOLDER\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--inJar", "E:\Arcane Souls Mod\arcane_souls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f12be50cc7c320b6e64533598bb4f3b4de98f76d\rename\output.jar", "--outJar", "E:\Arcane Souls Mod\arcane_souls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f12be50cc7c320b6e64533598bb4f3b4de98f76d\AccessTransformer\output.jar", "--atFile", "E:\Arcane Souls Mod\arcane_souls\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\ICCELE~1\AppData\Local\Temp\FG_ats_4605515218618494487.cfg"
+Classpath:   C:\Users\iccelerox\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working Dir: E:\Arcane Souls Mod\arcane_souls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f12be50cc7c320b6e64533598bb4f3b4de98f76d\AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

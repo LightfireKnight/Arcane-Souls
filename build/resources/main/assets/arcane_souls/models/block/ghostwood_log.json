@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arcane_souls:blocks/adoritelogtop",
+    "up": "arcane_souls:blocks/adoritelogtop",
+    "north": "arcane_souls:blocks/adoritelogside",
+    "east": "arcane_souls:blocks/adoritelogside",
+    "south": "arcane_souls:blocks/adoritelogside",
+    "west": "arcane_souls:blocks/adoritelogside",
+    "particle": "arcane_souls:blocks/adoritelogtop"
+  },
+  "render_type": "cutout"
+}

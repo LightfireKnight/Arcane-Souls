@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "whitefire_0",
+        "1": "whitefire_1"
+      },
+      "name": "default"
+    }
+  }
+}

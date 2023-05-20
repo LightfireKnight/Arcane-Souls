@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arcane_souls:blocks/stoneglory",
+    "up": "arcane_souls:blocks/stoneglory",
+    "north": "arcane_souls:blocks/stoneglory",
+    "east": "arcane_souls:blocks/stoneglory",
+    "south": "arcane_souls:blocks/stoneglory",
+    "west": "arcane_souls:blocks/stoneglory",
+    "particle": "arcane_souls:blocks/stoneglory"
+  },
+  "render_type": "solid"
+}

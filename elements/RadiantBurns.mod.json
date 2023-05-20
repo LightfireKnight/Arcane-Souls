@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Radiant Burns",
+    "icon": "scorch_timer.png",
+    "color": {
+      "value": -798,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "RadiantBurnsEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "RadiantBurnsOnEffectActiveTick"
+    }
+  }
+}

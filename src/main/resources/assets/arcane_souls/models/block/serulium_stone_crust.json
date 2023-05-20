@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arcane_souls:blocks/adoria_obsidian_smooth",
+    "up": "arcane_souls:blocks/adoria_obsidian_smooth",
+    "north": "arcane_souls:blocks/adoria_obsidian_smooth",
+    "east": "arcane_souls:blocks/adoria_obsidian_smooth",
+    "south": "arcane_souls:blocks/adoria_obsidian_smooth",
+    "west": "arcane_souls:blocks/adoria_obsidian_smooth",
+    "particle": "arcane_souls:blocks/adoria_obsidian_smooth"
+  },
+  "render_type": "solid"
+}

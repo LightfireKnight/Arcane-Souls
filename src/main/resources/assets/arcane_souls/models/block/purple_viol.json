@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "arcane_souls:blocks/purplevioltop",
+    "particle": "arcane_souls:blocks/purplevioltop"
+  },
+  "render_type": "cutout"
+}

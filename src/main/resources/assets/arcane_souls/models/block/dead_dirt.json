@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arcane_souls:blocks/helldirt",
+    "up": "arcane_souls:blocks/helldirt",
+    "north": "arcane_souls:blocks/helldirt",
+    "east": "arcane_souls:blocks/helldirt",
+    "south": "arcane_souls:blocks/helldirt",
+    "west": "arcane_souls:blocks/helldirt",
+    "particle": "arcane_souls:blocks/helldirt"
+  },
+  "render_type": "solid"
+}

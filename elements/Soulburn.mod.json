@@ -1,0 +1,26 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Soulburn",
+    "icon": "soulburnplaceholder.png",
+    "color": {
+      "value": -13382401,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "SoulburnEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "SoulburnOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "SoulburnEffectExpires"
+    }
+  }
+}

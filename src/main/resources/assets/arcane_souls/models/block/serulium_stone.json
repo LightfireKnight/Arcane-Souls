@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arcane_souls:blocks/seruliumnetherrack",
+    "up": "arcane_souls:blocks/seruliumnetherrack",
+    "north": "arcane_souls:blocks/seruliumnetherrack",
+    "east": "arcane_souls:blocks/seruliumnetherrack",
+    "south": "arcane_souls:blocks/seruliumnetherrack",
+    "west": "arcane_souls:blocks/seruliumnetherrack",
+    "particle": "arcane_souls:blocks/seruliumnetherrack"
+  },
+  "render_type": "solid"
+}

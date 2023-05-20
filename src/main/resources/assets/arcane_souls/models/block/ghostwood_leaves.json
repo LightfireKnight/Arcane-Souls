@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "arcane_souls:blocks/leaves_ghostly",
+    "particle": "arcane_souls:blocks/leaves_ghostly"
+  }
+}
