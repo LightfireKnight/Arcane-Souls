@@ -20,12 +20,6 @@ authors="iccelerox, MCreator"
 
 
 [[dependencies.arcane_souls]]
-    modId="curios_api"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.arcane_souls]]
     modId="geckolib"
     mandatory=false
     versionRange="[0,)"

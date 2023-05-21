@@ -20,6 +20,7 @@ import net.iceworks.arcanesouls.item.SummonGileadItem;
 import net.iceworks.arcanesouls.item.SoulLavaItem;
 import net.iceworks.arcanesouls.item.FlechetteProjectileItem;
 import net.iceworks.arcanesouls.item.FlechetteItem;
+import net.iceworks.arcanesouls.item.BorgenItem;
 import net.iceworks.arcanesouls.ArcaneSoulsMod;
 
 public class ArcaneSoulsModItems {
@@ -44,6 +45,7 @@ public class ArcaneSoulsModItems {
 	public static final RegistryObject<Item> FLECHETTE_PROJECTILE = REGISTRY.register("flechette_projectile", () -> new FlechetteProjectileItem());
 	public static final RegistryObject<Item> FLECHETTE = REGISTRY.register("flechette", () -> new FlechetteItem());
 	public static final RegistryObject<Item> SUMMON_GILEAD = REGISTRY.register("summon_gilead", () -> new SummonGileadItem());
+	public static final RegistryObject<Item> BORGEN = REGISTRY.register("borgen", () -> new BorgenItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
